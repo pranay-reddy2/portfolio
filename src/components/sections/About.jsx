@@ -1,15 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
-  ];
+  const frontendSkills = ["React", "TypeScript", "TailwindCSS"];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "Java"];
 
   return (
     <section
@@ -25,8 +19,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Passionate CS student with skills which help in building scalable
+              web applications and creating innovative solutions.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,8 +63,8 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.S. in Computer Science </strong> - Scaler School of
+                  Technology (2024-2028)
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
@@ -83,23 +77,19 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Minecraft
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    A simple about Minecraft and its tournaments.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
+                  <h4 className="font-semibold">Gamster</h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Created a mini games application using JavaScript and
+                    Firebase. Included user authentication and real-time score
+                    tracking.
                   </p>
                 </div>
               </div>
